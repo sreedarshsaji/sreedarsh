@@ -1,31 +1,53 @@
-# Python Installation Guide
+# Student Grade Calculator
 
-This project contains step-by-step documentation for installing Python on
-Windows, macOS, and Linux.
+## Description
 
-## Contents
+Student Grade Calculator is a beginner Python project designed to calculate a student's grade based on their marks.
 
-| File | Description |
-|---|---|
-| [Introduction.md](Introduction.md) | Overview of Python and the software requirements needed before installing |
-| [Installation.md](Installation.md) | Installation steps by OS, verification steps, troubleshooting, and conclusion |
-| [FAQ.md](FAQ.md) | Answers to frequently asked questions about installing and managing Python |
-| `Images/` | Folder for screenshots and diagrams referenced in the guides |
+## Features
 
-## How to Use This Guide
+- Accepts marks as input.
+- Calculates a grade based on the marks.
+- Displays the calculated grade.
 
-1. Start with **Introduction.md** to confirm your system meets the
-   requirements.
-2. Follow **Installation.md** for your operating system, then verify your
-   setup using the verification steps in the same file.
-3. If you run into issues, check the **Troubleshooting** section in
-   **Installation.md**, or the **FAQ.md** for common questions.
+## Requirements
 
-## Adding Images
+- Python
 
-Place any screenshots or diagrams referenced in the documentation into the
-`Images/` folder, then link to them from the relevant `.md` file, e.g.:
+## Installation
 
-```markdown
-![Installer screen](Images/installer-screen.png)
+1. Install Python on your computer.
+2. Download or clone the project.
+3. Open the project folder in your preferred code editor.
+
+## Usage
+
+Run the Python program using:
+
+```bash
+python student_grade_calculator.py
 ```
+
+Enter the student's marks when prompted.
+
+## Example
+
+```text
+Enter your marks: 85
+Grade: B
+```
+
+## Project Structure
+
+```text
+Student-Grade-Calculator/
+│
+├── student_grade_calculator.py
+└── README.md
+```
+
+## Future Improvements
+
+- Add additional grade calculation options.
+- Improve the user interface.
+- Add more functionality as the project develops.
